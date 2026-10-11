@@ -1,0 +1,367 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Landing page AVANTI desenvolvida para o Innovation Challenge.">
+    <title>AVANTI | Home</title>
+    
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Nunito:wght@300;400;700&family=Nunito+Sans:wght@400;600;700&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+
+    <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+    <header class="cabecalho">
+        <div class="barra-desconto">
+            Ganhe <strong class="valor-desconto">R$10,00</strong> de desconto no seu primeiro pedido. Utilize o cupom <strong>DESCONTO10</strong>
+        </div>
+
+        <div class="cabecalho-principal container">
+            <button class="botao-menu-mobile" id="botaoMenuMobile" type="button" aria-label="Abrir menu" aria-expanded="false" aria-controls="navegacao">
+                <i class="bi bi-list" aria-hidden="true"></i>
+            </button>
+
+            <a class="logo" href="#inicio" aria-label="AVANTI - Início">
+                <img src="assets/logo-avanti.png" alt="AVANTI">
+            </a>
+
+            <form class="form-busca" id="formBusca" role="search">
+                <input type="search" id="busca" name="busca" placeholder="Digite aqui o que você procura" aria-label="Buscar produtos" autocomplete="off">
+                <button type="submit" aria-label="Pesquisar">
+                    <img src="assets/icone-busca.svg" alt="">
+                </button>
+            </form>
+
+            <div class="acoes-cabecalho">
+                <button class="acao-conta" type="button" aria-label="Minha conta">
+                    <img src="assets/icone-conta.svg" alt="">
+                    <span>Olá,<br><strong>Nome cliente!</strong></span>
+                </button>
+                <button class="acao-carrinho" type="button" aria-label="Carrinho de compras">
+                    <img src="assets/icone-carrinho.svg" alt="">
+                    <span>2</span>
+                </button>
+            </div>
+        </div>
+
+        <nav class="navegacao" id="navegacao" aria-label="Categorias">
+            <div class="container navegacao-conteudo">
+                <button class="botao-categorias" id="botaoCategorias" type="button" aria-expanded="false" aria-controls="menuCategorias">
+                    <i class="bi bi-list" aria-hidden="true"></i>
+                    Todas as Categorias
+                </button>
+
+                <div class="links-categorias">
+                    <a href="#lancamentos" data-departamento="Departamento" aria-controls="menuCategorias" aria-expanded="false">Departamento</a>
+                    <a href="#lancamentos" data-departamento="Departamento" aria-controls="menuCategorias" aria-expanded="false">Departamento</a>
+                    <a href="#lancamentos" data-departamento="Departamento" aria-controls="menuCategorias" aria-expanded="false">Departamento</a>
+                    <a href="#lancamentos" data-departamento="Departamento" aria-controls="menuCategorias" aria-expanded="false">Departamento</a>
+                    <a href="#lancamentos" data-departamento="Departamento" aria-controls="menuCategorias" aria-expanded="false">Departamento</a>
+                    <a href="#lancamentos" data-departamento="Departamento" aria-controls="menuCategorias" aria-expanded="false">Departamento</a>
+                    <a href="#lancamentos" data-departamento="Departamento" aria-controls="menuCategorias" aria-expanded="false">Departamento</a>
+                    <a href="#lancamentos" data-departamento="Departamento" aria-controls="menuCategorias" aria-expanded="false">Departamento</a>
+                </div>
+            </div>
+
+
+            <div class="mega-menu container" id="menuCategorias" role="region" aria-label="Menu de categorias">
+                <div class="mega-departamentos">
+                    <div class="mega-departamentos-lista">
+                        <a href="#" class="selecionado">Departamento <i class="bi bi-chevron-right" aria-hidden="true"></i></a>
+                        <a href="#">Departamento <i class="bi bi-chevron-right" aria-hidden="true"></i></a>
+                        <a href="#">Departamento <i class="bi bi-chevron-right" aria-hidden="true"></i></a>
+                        <a href="#">Departamento <i class="bi bi-chevron-right" aria-hidden="true"></i></a>
+                        <a href="#">Departamento <i class="bi bi-chevron-right" aria-hidden="true"></i></a>
+                        <a href="#">Departamento <i class="bi bi-chevron-right" aria-hidden="true"></i></a>
+                        <a href="#">Departamento <i class="bi bi-chevron-right" aria-hidden="true"></i></a>
+                        <a href="#">Departamento <i class="bi bi-chevron-right" aria-hidden="true"></i></a>
+                        <a href="#">Departamento <i class="bi bi-chevron-right" aria-hidden="true"></i></a>
+                        <a href="#">Departamento <i class="bi bi-chevron-right" aria-hidden="true"></i></a>
+                        <a href="#">Departamento <i class="bi bi-chevron-right" aria-hidden="true"></i></a>
+                        <a href="#">Departamento <i class="bi bi-chevron-right" aria-hidden="true"></i></a>
+                        <a href="#">Departamento <i class="bi bi-chevron-right" aria-hidden="true"></i></a>
+                        <a href="#">Departamento <i class="bi bi-chevron-right" aria-hidden="true"></i></a>
+                    </div>
+                </div>
+
+                <div class="mega-conteudo">
+                    <div class="mega-cabecalho">
+                        <strong class="mega-titulo">Departamento</strong>
+                        <a class="link-ver-tudo" href="#lancamentos">Ver tudo</a>
+                    </div>
+
+                    <div class="mega-colunas">
+                        <div class="mega-coluna">
+                            <strong>Categoria</strong>
+                            <a href="#">Categoria</a>
+                            <a href="#">Categoria</a>
+                            <a href="#">Categoria</a>
+                            <a href="#">Categoria</a>
+                            <a href="#">Categoria</a>
+                            <a href="#">Categoria</a>
+                            <a href="#">Categoria</a>
+                        </div>
+
+                        <div class="mega-coluna">
+                            <strong>Categoria</strong>
+                            <a href="#">Categoria</a>
+                            <a href="#">Categoria</a>
+                            <a href="#">Categoria</a>
+                            <a href="#">Categoria</a>
+                            <a href="#">Categoria</a>
+                            <a href="#">Categoria</a>
+                            <a href="#">Categoria</a>
+                        </div>
+
+                        <div class="mega-coluna">
+                            <strong>Categoria</strong>
+                            <a href="#">Categoria</a>
+                            <a href="#">Categoria</a>
+                            <a href="#">Categoria</a>
+                            <a href="#">Categoria</a>
+                            <a href="#">Categoria</a>
+                            <a href="#">Categoria</a>
+                            <a href="#">Categoria</a>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="mega-banner">
+                    <img src="assets/banner-mega-menu.png" alt="Confira os produtos que acabaram de chegar">
+                </div>
+            </div>
+        </nav>
+    </header>
+
+    <main id="inicio">
+        <section class="banner-principal" aria-label="Super Sale">
+            <div class="banner-cadeira">
+                <img src="assets/banner-cadeira.png" alt="Cadeira com roupas empilhadas">
+            </div>
+
+            <div class="banner-texto">
+                <h1><span class="super">SUPER</span><span class="sale">SALE</span></h1>
+                <p>ITENS SELECIONADOS COM ATÉ</p>
+                <strong>50%OFF</strong>
+            </div>
+        </section>
+
+        
+        <section class="secao-produtos container" id="lancamentos">
+            <div class="cabecalho-secao">
+                <h2>Lançamentos</h2>
+                <a href="#">Ver mais</a>
+            </div>
+
+            <div class="carrossel">
+                <button class="seta seta-esquerda" id="produtosAnterior" type="button" aria-label="Produtos anteriores">
+                    <i class="bi bi-arrow-left" aria-hidden="true"></i>
+                </button>
+
+                <div class="janela-carrossel">
+                    <div class="lista-produtos" id="listaProdutos"></div>
+                </div>
+
+                <button class="seta seta-direita" id="produtosProximo" type="button" aria-label="Próximos produtos">
+                    <i class="bi bi-arrow-right" aria-hidden="true"></i>
+                </button>
+            </div>
+
+            <div class="indicadores" id="indicadoresProdutos" aria-label="Páginas do carrossel"></div>
+        </section>
+
+        
+        <section class="conteudo-produto">
+            <div class="container bloco-conteudo bloco-conteudo-primeiro">
+                <div class="imagem-conteudo imagem-cinza">
+                    <img src="assets/caneca.svg" alt="Caneca AVANTI preta" loading="lazy">
+                </div>
+
+                <div class="texto-conteudo">
+                    <h2>LOREM IPSUM</h2>
+                    <p class="texto-desktop">Duis consectetur metus nec lacus auctor dignissim. Mauris vitae finibus dui. Mauris laoreet lacus ut eleifend viverra. Cras efficitur volutpat dui, in lobortis metus lacinia sit amet. Sed lacinia pharetra magna, vel pulvinar ligula hendrerit a.</p>
+                    <p class="texto-desktop">Maecenas fringilla porttitor tortor eget lacinia. Donec sollicitudin euismod orci, auctor fringilla magna consequat interdum. Fusce sagittis elit a libero commodo egestas efficitur id augue.</p>
+                    <p class="texto-mobile">Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu, pretium quis, sem.</p>
+                    <p class="texto-mobile">Cras dignissim est et pellentesque tincidunt. Maecenas fringilla porttitor tortor eget lacinia.</p>
+                </div>
+            </div>
+        </section>
+
+        
+        <section class="secao-destaque">
+            <div class="container destaque-grid">
+                <div class="destaque-texto">
+                    <h2>LOREM IPSUM</h2>
+
+                    <div class="lista-beneficios">
+                        <article class="beneficio">
+                            <div class="icone-beneficio"><img src="assets/map-pin.svg" alt="" loading="lazy"></div>
+                            <p>Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu, pretium quis, sem.</p>
+                        </article>
+
+                        <article class="beneficio">
+                            <div class="icone-beneficio"><img src="assets/map-pin.svg" alt="" loading="lazy"></div>
+                            <p>Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu, pretium quis, sem.</p>
+                        </article>
+
+                        <article class="beneficio">
+                            <div class="icone-beneficio"><img src="assets/map-pin.svg" alt="" loading="lazy"></div>
+                            <p>Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu, pretium quis, sem.</p>
+                        </article>
+                    </div>
+                </div>
+
+                <div class="destaque-imagem">
+                    <img src="assets/foto-caneca-cozinha.png" alt="Caneca AVANTI em um ambiente de cozinha" loading="lazy">
+                </div>
+            </div>
+        </section>
+
+        
+        <section class="conteudo-produto">
+            <div class="container bloco-conteudo bloco-conteudo-ultimo">
+                <div class="imagem-conteudo imagem-cinza">
+                    <img src="assets/caneca.svg" alt="Caneca AVANTI preta" loading="lazy">
+                </div>
+
+                <div class="texto-conteudo">
+                    <h2>LOREM IPSUM</h2>
+                    <p class="texto-desktop">Duis consectetur metus nec lacus auctor dignissim. Mauris vitae finibus dui. Mauris laoreet lacus ut eleifend viverra. Cras efficitur volutpat dui, in lobortis metus lacinia sit amet. Sed lacinia pharetra magna, vel pulvinar ligula hendrerit a.</p>
+                    <p class="texto-desktop">Maecenas fringilla porttitor tortor eget lacinia. Donec sollicitudin euismod orci, auctor fringilla magna consequat interdum. Fusce sagittis elit a libero commodo egestas efficitur id augue.</p>
+                    <p class="texto-mobile">Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu, pretium quis, sem.</p>
+                    <p class="texto-mobile">Cras dignissim est et pellentesque tincidunt. Maecenas fringilla porttitor tortor eget lacinia.</p>
+                </div>
+            </div>
+        </section>
+
+        
+        <section class="secao-produtos container segundo-carrossel">
+            <div class="cabecalho-secao">
+                <h2>Lançamentos</h2>
+                <a href="#">Ver mais</a>
+            </div>
+
+            <div class="carrossel">
+                <button class="seta seta-esquerda" id="produtosAnterior2" type="button" aria-label="Produtos anteriores">
+                    <i class="bi bi-arrow-left" aria-hidden="true"></i>
+                </button>
+
+                <div class="janela-carrossel">
+                    <div class="lista-produtos" id="listaProdutos2"></div>
+                </div>
+
+                <button class="seta seta-direita" id="produtosProximo2" type="button" aria-label="Próximos produtos">
+                    <i class="bi bi-arrow-right" aria-hidden="true"></i>
+                </button>
+            </div>
+
+            <div class="indicadores" id="indicadoresProdutos2" aria-label="Páginas do segundo carrossel"></div>
+        </section>
+
+        
+        <section class="banner-regiao">
+            <img src="assets/foto-regiao.png" alt="Ambiente AVANTI" loading="lazy">
+            <div>Entre em contato conosco e verifique a disponibilidade para sua região!</div>
+        </section>
+
+        
+        <section class="newsletter" id="newsletter">
+            <div class="container">
+                <h2>Cadastre-se na nossa <a href="#newsletter">newsletter</a></h2>
+
+                <form class="form-newsletter" id="formNewsletter" novalidate>
+                    <input type="text" id="nomeNewsletter" name="nome" placeholder="Digite seu nome" aria-label="Seu nome" autocomplete="name">
+                    <input type="email" id="emailNewsletter" name="email" placeholder="Digite seu e-mail" aria-label="Seu e-mail" autocomplete="email">
+
+                    <label class="check-privacidade">
+                        <input type="checkbox" id="aceiteNewsletter" name="aceite">
+                        <span>Estou de acordo com a <u>Política de Privacidade</u></span>
+                    </label>
+
+                    <button type="submit">Cadastrar</button>
+                </form>
+
+                <p class="mensagem-newsletter" id="mensagemNewsletter" role="status"></p>
+            </div>
+        </section>
+    </main>
+
+    
+    <footer class="rodape">
+        <div class="rodape-superior">
+            <div class="container rodape-principal">
+                <div class="rodape-marca">
+                    <img src="assets/logo-avanti-rodape.png" alt="AVANTI" loading="lazy">
+                    <p>SIGA NOSSAS REDES SOCIAIS</p>
+
+                    <div class="redes-sociais">
+                        <a href="#" aria-label="Instagram"><img src="assets/icone-instagram.svg" alt="" loading="lazy"></a>
+                        <a href="#" aria-label="Facebook"><img src="assets/icone-facebook.svg" alt="" loading="lazy"></a>
+                        <a href="#" aria-label="YouTube"><img src="assets/icone-youtube.png" alt="" loading="lazy"></a>
+                        <a href="#" aria-label="TikTok"><img src="assets/icone-tiktok.svg" alt="" loading="lazy"></a>
+                    </div>
+                </div>
+
+                <div class="rodape-coluna">
+                    <h4>Institucional</h4>
+                    <a href="#">Sobre Nós</a>
+                    <a href="#">Nossas Lojas</a>
+                    <a href="#">Privacidade e Segurança</a>
+                    <a href="#">Termos e Condições</a>
+                </div>
+
+                <div class="rodape-coluna">
+                    <h4>Central de ajuda</h4>
+                    <a href="#">Fale Conosco</a>
+                    <a href="#">Frete e Entrega</a>
+                    <a href="#">Trocas e Devoluções</a>
+                    <a href="#">Formas de Pagamento</a>
+                    <a href="#">FAQ</a>
+                </div>
+
+                <div class="rodape-coluna atendimento">
+                    <h4>Atendimento</h4>
+                    <p><strong>Telefone:</strong> (00) 1234-5678</p>
+                    <p><strong>E-mail:</strong> exemplo@exemplo.com.br</p>
+                    <p><strong>Horário de atendimento:</strong><br>Segunda a Sábado: 07h00 às 23h00<br>Domingos e Feriados: 07h00 às 21h00</p>
+                </div>
+            </div>
+
+            <div class="pagamentos container" aria-label="Formas de pagamento">
+                <img src="assets/icone-amex.svg" alt="American Express" loading="lazy">
+                <img src="assets/icone-mastercard.svg" alt="Mastercard" loading="lazy">
+                <img src="assets/icone-visa.svg" alt="Visa" loading="lazy">
+                <img src="assets/icone-hipercard.png" alt="Hipercard" loading="lazy">
+                <img src="assets/icone-elo.svg" alt="Elo" loading="lazy">
+                <img src="assets/icone-diners.png" alt="Diners Club" loading="lazy">
+                <img src="assets/icone-paypal.png" alt="PayPal" loading="lazy">
+                <img src="assets/icone-pix.svg" alt="Pix" loading="lazy">
+                <img src="assets/icone-boleto.svg" alt="Boleto" loading="lazy">
+            </div>
+        </div>
+
+        <div class="rodape-legal">
+            <div class="container">
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat. Ut wisi enim ad minim veniam, quis nostrud exerci tation ullamcorper suscipit lobortis nisl ut aliquip ex ea commodo consequat. Duis autem vel eum iriure dolor in hendrerit in vulputate velit esse molestie consequat.</p>
+
+                <div class="selos">
+                    <img src="assets/selo-lets-encrypt.svg" alt="Let's Encrypt" loading="lazy">
+                    <img src="assets/selo-vtex-pci.svg" alt="VTEX PCI" loading="lazy">
+                    <span class="divisor-selos" aria-hidden="true"></span>
+                    <img src="assets/logo-avanti-rodape.png" alt="AVANTI" loading="lazy">
+                    <img src="assets/logo-vtex.png" alt="VTEX" loading="lazy">
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <script src="js/script.js"></script>
+</body>
+
+</html>
